@@ -1,0 +1,80 @@
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+}
+.best-price {
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.left-section {
+    flex: 1;
+    min-width: 300px;
+}
+.product-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.middle-section {
+    flex: 2;
+    padding: 0 20px;
+    min-width: 300px;
+}
+.middle-section h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.middle-section ul {
+    padding-left: 20px;
+    list-style-type: disc;
+    margin: 0;
+}
+.middle-section ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.right-section {
+    flex: 1;
+    min-width: 300px;
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-section .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.right-section button {
+    background: #00aaff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.right-section button:hover {
+    background: #0088cc;
+}
+.right-section .compare {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #555;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
